@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Heart, Clock, Trophy, Award, LayoutGrid, Flame, Timer } from 'lucide-react'
-import { CATEGORY_COLORS, MOCK_ACHIEVEMENTS, MOCK_CERTIFICATES } from '@/lib/mockData'
+import { CATEGORY_COLORS } from '@/lib/mockData'
 import { formatDate } from '@/lib/utils'
 import type { Achievement, Certificate, GalleryFilter } from '@/types'
 
