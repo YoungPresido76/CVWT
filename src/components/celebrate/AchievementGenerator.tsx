@@ -252,8 +252,8 @@ export function AchievementGenerator({ onSaved }: AchievementGeneratorProps) {
               <img
                 src={form.profile_image_url}
                 alt="Profile preview"
-                className="h-14 w-14 rounded-full object-cover ring-2"
-                style={{ ringColor: catColor }}
+                className="h-14 w-14 rounded-full object-cover"
+                style={{ outline: `2px solid ${catColor}` }}
               />
               <div className="flex-1 min-w-0">
                 <p className="text-sm font-medium text-white truncate">
