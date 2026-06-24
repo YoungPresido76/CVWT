@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import {
-  Zap, Heart, Image as ImageIcon, Download, Copy, Check,
+  Zap, Heart, Download, Copy, Check,
   Smartphone, Monitor, Share2
 } from 'lucide-react'
 import { DailyQuote } from '@/components/inspire/DailyQuote'
